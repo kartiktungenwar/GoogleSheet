@@ -9,7 +9,7 @@
 <script>
 function SubForm (){
     $.ajax({
-        url:'https://api.apispreadsheets.com/data/11069/',
+        url:'https://api.apispreadsheets.com/data/11503/',
         type:'post',
         data:$("#myForm").serializeArray(),
         success: function(){
